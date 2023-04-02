@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href="style.css" />
+		 <title>Sjviray's Calculator </title>
+		 <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    </head>
+	
+	
+    
+    <body>
+        
+        
+		 
+		 <div class="calculator">
+			 <div id="display">
+			 
+			 0
+			 
+			 </div>
+			 
+			 <div class="calculatorKeys">
+				 
+			 <div class="buttonRow">
+				<button onclick="clearAll()">AC</button>
+				<button onclick ="backspace()"> &lt;-</button>
+				<button onclick = "percent()">%</button>
+				<button onclick="putSign('/')" class="sign">/</button>  
+			 </div>
+			 
+			 <div class="buttonRow">
+			 	 <button onclick="putNumber(7)">7</button>
+				 <button onclick="putNumber(8)">8</button>
+				 <button onclick="putNumber(9)">9</button>
+				 <button onclick="putSign('x')" class="sign">x</button> 
+			 </div>
+			 
+			 <div class="buttonRow">
+			 	 <button onclick="putNumber(4)">4</button>
+				 <button onclick="putNumber(5)">5</button>
+				 <button onclick="putNumber(6)">6</button>
+				 <button onclick="putSign('-')" class="sign">-</button>  
+			 </div>
+			 
+			 <div class="buttonRow">
+			 	<button onclick="putNumber(1)">1</button>
+				<button onclick="putNumber(2)">2</button>
+				<button onclick="putNumber(3)">3</button>
+				<button onclick="putSign('+')" class="sign">+</button>  
+			 </div>
+			 
+			 <div class="buttonRow">
+			 	<button onclick = "negative()">+/-</button>
+				<button onclick="putNumber(0)">0</button>
+				<button onclick="putNumber('.')">.</button>
+				<button onclick="equals()" class="sign">=</button>  
+			 </div>
+				 
+			 </div>
+		 
+		 
+		 </div>
+		 
+		 
+		 
+		 <script src="script.js"></script>
+    </body>
+	
+	
+	
+</html>
