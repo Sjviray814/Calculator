@@ -16,6 +16,7 @@ button{
 	border-color: transparent;
 	opacity: 90%;
 	font-size: 2vw;
+  padding: 0px;
 }
 
 .calculatorKeys{
